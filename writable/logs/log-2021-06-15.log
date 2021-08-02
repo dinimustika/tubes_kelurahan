@@ -1,0 +1,620 @@
+CRITICAL - 2021-06-15 09:02:19 --> Undefined index: name
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(24): view('template/index', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-06-15 09:07:21 --> mysqli_sql_exception: Unknown column 'auth_groups_users.id' in 'on clause' in C:\xampp\htdocs\msbd_tubes\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\msbd_tubes\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\msbd_tubes\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\msbd_tubes\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\msbd_tubes\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:07:21 --> Unknown column 'auth_groups_users.id' in 'on clause'
+#0 C:\xampp\htdocs\msbd_tubes\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\msbd_tubes\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\msbd_tubes\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\msbd_tubes\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:07:53 --> Undefined index: name
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(25): view('template/index', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:13:21 --> Undefined index: name
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(25): view('template/index', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:13:59 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#3 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(23): view('template/index', Array)
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-15 09:15:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#3 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(21): view('template/index', Array)
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-15 09:17:55 --> Undefined variable: pager
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(513): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 513, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(21): view('template/index', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:25:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-15 09:27:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-15 09:28:27 --> Undefined property: App\Controllers\Home::$query
+#0 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-15 09:28:50 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(497): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 497, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(29): view('template/index', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 09:33:59 --> Invalid file: App\Views\Template\pagers\custom_pager.php
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Templ...')
+#1 C:\xampp\htdocs\msbd_tubes\system\Pager\Pager.php(158): CodeIgniter\View\View->render('App\\Views\\Templ...')
+#2 C:\xampp\htdocs\msbd_tubes\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pager')
+#3 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(517): CodeIgniter\Pager\Pager->links('default', 'custom_pager')
+#4 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#7 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(29): view('template/index', Array)
+#8 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-06-15 09:34:44 --> Invalid file: App\Views\Template\pagers.php
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Templ...')
+#1 C:\xampp\htdocs\msbd_tubes\system\Pager\Pager.php(158): CodeIgniter\View\View->render('App\\Views\\Templ...')
+#2 C:\xampp\htdocs\msbd_tubes\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pager')
+#3 C:\xampp\htdocs\msbd_tubes\app\Views\template\index.php(517): CodeIgniter\Pager\Pager->links('default', 'custom_pager')
+#4 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/index', Array, true)
+#7 C:\xampp\htdocs\msbd_tubes\app\Controllers\Home.php(29): view('template/index', Array)
+#8 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-06-15 09:36:52 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:36:56 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:37:45 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:37:50 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:37:54 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:37:58 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:38:03 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:28 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:31 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:36 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:42 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:47 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:52 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:43:55 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:02 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:05 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:12 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:15 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:22 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:25 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:32 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:35 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:41 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:46 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:53 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:44:55 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:03 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:06 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:13 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:18 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:21 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:28 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:31 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:39 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:42 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:49 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:52 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:45:59 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:02 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:10 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:12 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:20 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:23 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:30 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:35 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:40 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:43 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:50 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:46:53 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:47:01 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-15 09:47:04 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(217): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->notif()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

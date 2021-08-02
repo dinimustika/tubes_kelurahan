@@ -1,0 +1,348 @@
+CRITICAL - 2021-06-05 00:04:56 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:05:46 --> Cannot call constructor
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:06:04 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:07:55 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:07:57 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:07:57 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:07:57 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:07:58 --> Undefined property: App\Controllers\User::$load
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:08:14 --> Call to undefined method App\Controllers\User::helper()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(908): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:31 --> syntax error, unexpected 'protected' (T_PROTECTED)
+#0 C:\xampp\htdocs\msbd\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('user/download')
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('user/download')
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 00:09:38 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:40 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:40 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:41 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:41 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:42 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:42 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:43 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:09:43 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:14:34 --> Call to undefined function App\Controllers\download()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->download()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 00:20:51 --> Use of undefined constant dokumen - assumed 'dokumen' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\msbd\app\Views\user\riwayat.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\msbd\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#4 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#6 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 00:25:22 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\msbd\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\msbd\app\Controllers\User.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('assets/')
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->update()
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-05 00:28:50 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:29:17 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:33:10 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:35:05 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:36:21 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:36:36 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:37:27 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:37:50 --> syntax error, unexpected ''<td>Belum Selesai</td>'' (T_CONSTANT_ENCAPSED_STRING), expecting ':'
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 00:38:05 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#2 C:\xampp\htdocs\msbd\app\Controllers\User.php(99): view('user/riwayat', Array)
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#4 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-06-05 00:52:50 --> mysqli_sql_exception: Unknown column 'akta.id_user' in 'on clause' in C:\xampp\htdocs\msbd\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\msbd\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\msbd\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\msbd\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\msbd\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\msbd\app\Controllers\User.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#6 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 00:52:50 --> Unknown column 'akta.id_user' in 'on clause'
+#0 C:\xampp\htdocs\msbd\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\msbd\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\msbd\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\msbd\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\msbd\app\Controllers\User.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#6 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 01:02:46 --> Undefined variable: surt
+#0 C:\xampp\htdocs\msbd\app\Views\user\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\msbd\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#4 C:\xampp\htdocs\msbd\app\Controllers\User.php(104): view('user/riwayat', Array)
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#6 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 01:03:22 --> Trying to get property 'id_status' of non-object
+#0 C:\xampp\htdocs\msbd\app\Views\user\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\msbd\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd\system\Common.php(1217): CodeIgniter\View\View->render('user/riwayat', Array, true)
+#4 C:\xampp\htdocs\msbd\app\Controllers\User.php(104): view('user/riwayat', Array)
+#5 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->riwayat()
+#6 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 01:07:02 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\msbd\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 01:16:21 --> Call to undefined function App\Controllers\NOW()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->akta()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-05 01:16:57 --> Use of undefined constant NOW - assumed 'NOW' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\msbd\app\Controllers\User.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->akta()
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-05 01:18:29 --> Call to undefined function App\Controllers\NOW()
+#0 C:\xampp\htdocs\msbd\system\CodeIgniter.php(936): App\Controllers\User->akta()
+#1 C:\xampp\htdocs\msbd\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\msbd\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\msbd\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\msbd\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-06-05 01:28:42 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2021-06-05 01:28:42 --> Failed to send activation messaage to: kina@gmail.com
+ERROR - 2021-06-05 01:44:46 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2021-06-05 01:44:46 --> Failed to send activation messaage to: dinimustika1216@gmail.com
+ERROR - 2021-06-05 01:47:22 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2021-06-05 01:47:22 --> Failed to send activation messaage to: dinimustika1216@gmail.com
+ERROR - 2021-06-05 01:52:45 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2021-06-05 01:52:46 --> Failed to send activation messaage to: dinimustika508@gmail.com

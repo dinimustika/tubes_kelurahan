@@ -1,0 +1,66 @@
+CRITICAL - 2021-06-10 00:00:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\template\editberita.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('template/editbe...', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Berita.php(44): view('template/editbe...', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Berita->edit('style.css')
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-10 00:07:20 --> Invalid file: ../template/editberita.php
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/edi...')
+#1 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('../template/edi...', Array, true)
+#2 C:\xampp\htdocs\msbd_tubes\app\Controllers\Berita.php(47): view('../template/edi...', Array)
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Berita->edit('2')
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-10 00:10:00 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\msbd_tubes\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\msbd_tubes\app\Controllers\Berita.php(17): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/')
+#2 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Berita->add()
+#3 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-10 00:12:09 --> Undefined variable: akta
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\surat\editberita.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('surat/editberit...', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Berita.php(47): view('surat/editberit...', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Berita->edit('2')
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-10 00:12:23 --> Undefined index: id_permohonan
+#0 C:\xampp\htdocs\msbd_tubes\app\Views\surat\editberita.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('surat/editberit...', Array, true)
+#4 C:\xampp\htdocs\msbd_tubes\app\Controllers\Berita.php(47): view('surat/editberit...', Array)
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\Berita->edit('2')
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-10 00:27:40 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\msbd_tubes\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\msbd_tubes\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\msbd_tubes\system\Common.php(1217): CodeIgniter\View\View->render('surat/riwayatkt...', Array, true)
+#3 C:\xampp\htdocs\msbd_tubes\app\Controllers\User.php(50): view('surat/riwayatkt...', Array)
+#4 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(936): App\Controllers\User->riwayatKTP()
+#5 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\msbd_tubes\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\msbd_tubes\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\msbd_tubes\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
