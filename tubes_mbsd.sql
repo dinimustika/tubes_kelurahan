@@ -175,63 +175,7 @@ CREATE TABLE `auth_logins` (
 --
 
 INSERT INTO `auth_logins` (`id`, `ip_address`, `email`, `user_id`, `date`, `success`) VALUES
-(1, '::1', 'dinimustika12@gmail.com', 1, '2021-06-06 22:07:18', 1),
-(2, '::1', 'dinimustika12@gmail.com', 1, '2021-06-06 22:38:09', 1),
-(3, '::1', 'nopal@gmail.com', 2, '2021-06-06 23:00:34', 1),
-(4, '::1', 'dinimustika12@gmail.com', 1, '2021-06-06 23:12:17', 1),
-(5, '::1', 'nopal@gmail.com', 2, '2021-06-06 23:14:05', 1),
-(6, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 00:20:16', 1),
-(7, '::1', 'adella@gmail.com', 3, '2021-06-07 00:23:42', 1),
-(8, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 00:29:41', 1),
-(9, '::1', 'adella@gmail.com', 3, '2021-06-07 00:57:46', 1),
-(10, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 02:24:39', 1),
-(11, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 09:27:17', 1),
-(12, '::1', 'nopal@gmail.com', 2, '2021-06-07 09:41:02', 1),
-(13, '::1', 'adella@gmail.com', 3, '2021-06-07 09:49:31', 1),
-(14, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 09:52:29', 1),
-(15, '::1', 'adella@gmail.com', 3, '2021-06-07 10:08:03', 1),
-(16, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 11:01:23', 1),
-(17, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 19:42:01', 1),
-(18, '::1', 'adella@gmail.com', 3, '2021-06-07 22:41:52', 1),
-(19, '::1', 'dinimustika12@gmail.com', 1, '2021-06-07 23:02:44', 1),
-(20, '::1', 'dinimustika12@gmail.com', 1, '2021-06-08 07:11:35', 1),
-(21, '::1', 'adella@gmail.com', 3, '2021-06-08 07:21:06', 1),
-(22, '::1', 'dinimustika12@gmail.com', 1, '2021-06-08 07:26:39', 1),
-(23, '::1', 'dinimustika12@gmail.com', 1, '2021-06-09 08:00:14', 1),
-(24, '::1', 'dinimustika12@gmail.com', 1, '2021-06-09 23:48:00', 1),
-(25, '::1', 'nopal@gmail.com', 2, '2021-06-10 00:26:34', 1),
-(26, '::1', 'dinimustika12@gmail.com', 1, '2021-06-13 21:19:17', 1),
-(27, '::1', 'dinimustika12@gmail.com', 1, '2021-06-14 06:39:01', 1),
-(28, '::1', 'dinimustika12@gmail.com', 1, '2021-06-14 09:04:11', 1),
-(29, '::1', 'dinimustika12@gmail.com', 1, '2021-06-15 09:36:44', 1),
-(30, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 04:14:29', 1),
-(31, '::1', 'nopal@gmail.com', 2, '2021-06-19 06:13:12', 1),
-(32, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 07:14:37', 1),
-(33, '::1', 'adella@gmail.com', 3, '2021-06-19 08:11:08', 1),
-(34, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 08:37:03', 1),
-(35, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 09:22:45', 1),
-(36, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 10:15:04', 1),
-(37, '::1', 'dinimustika12@gmail.com', 1, '2021-06-19 22:14:49', 1),
-(38, '::1', 'dinimustika12@gmail.com', 1, '2021-06-20 21:16:57', 1),
-(39, '::1', 'dinimustika12@gmail.com', 1, '2021-06-21 02:50:16', 1),
-(40, '::1', 'adella@gmail.com', 3, '2021-06-21 04:47:41', 1),
-(41, '::1', 'dinimustika12@gmail.com', 1, '2021-06-21 11:20:03', 1),
-(42, '::1', 'dinimustika12@gmail.com', 1, '2021-06-21 21:04:32', 1),
-(43, '::1', 'dinimustika12@gmail.com', 1, '2021-06-21 23:56:35', 1),
-(44, '::1', 'adella@gmail.com', 3, '2021-06-22 00:01:30', 1),
-(45, '::1', 'dinimustika12@gmail.com', 1, '2021-06-22 04:07:12', 1),
-(46, '::1', 'adella@gmail.com', 3, '2021-06-22 04:52:42', 1),
-(47, '::1', 'dinimustika12@gmail.com', 1, '2021-06-22 06:43:02', 1),
-(48, '::1', 'dinimustika12@gmail.com', 1, '2021-06-22 10:30:48', 1),
-(49, '::1', 'adella@gmail.com', 3, '2021-06-22 11:00:20', 1),
-(50, '::1', 'Naufal@gmail.com', 4, '2021-06-23 01:24:49', 1),
-(51, '::1', 'dinimustika12@gmail.com', 1, '2021-06-23 01:24:54', 1),
-(52, '::1', 'dinimustika12@gmail.com', 1, '2021-06-23 01:33:25', 1),
-(53, '::1', 'Fahri@gmail.com', 5, '2021-06-23 01:33:28', 1),
-(54, '::1', 'Fahri@gmail.com', 5, '2021-06-23 01:48:46', 1),
-(55, '::1', 'Fahri@gmail.com', 5, '2021-06-23 01:58:52', 1),
-(56, '::1', 'Fahri@gmail.com', 5, '2021-06-23 05:49:28', 1),
-(57, '::1', 'dinimustika12@gmail.com', 1, '2021-06-23 05:55:04', 1);
+(1, '::1', 'test@gmail.com', 1, '2021-06-06 22:07:18', 1);
 
 -- --------------------------------------------------------
 
@@ -625,14 +569,6 @@ CREATE TABLE `urus_ktp` (
 ) ;
 
 --
--- Dumping data for table `urus_ktp`
---
-
-INSERT INTO `urus_ktp` (`id_permohonan`, `id_user`, `id_surat`, `id_status`, `nama_pemohon`, `alamat`, `pekerjaan`, `status_kawin`, `jenis_kelamin`, `agama`, `tgl_lahir`, `tempat_lahir`, `file_kk`, `nik`, `dokumen`, `created_at`) VALUES
-(1, 3, 1, 1, 'Adella', 'Jl. Jalan', 'Mahasiswa', 'Belum Kawin', 'P', 'Islam', '2000-12-12', 'Sibolga', 'ar.jpg', 2147483647, '', '2021-06-22 16:01:37'),
-(3, 5, 1, 2, 'Fahri', 'Jl. Jalan', 'Mahasiswa', 'Belum Kawin', 'L', 'Islam', '2000-06-29', 'Padang Sidempuan', '2019_04_28 08_36 Office Lens_2.jpg', 1908392018, 'QuizLabMSBD.docx', '2021-06-23 06:38:54');
-
---
 -- Triggers `urus_ktp`
 --
 DELIMITER $$
@@ -700,14 +636,6 @@ CREATE TABLE `urus_simb` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `urus_simb`
---
-
-INSERT INTO `urus_simb` (`id_permohonan`, `id_user`, `id_perizinan`, `id_status`, `nama_pemilik`, `status_tanah`, `file_ktp`, `file_npwp`, `file_sppt`, `nik`, `luas_bangunan`, `alamat`, `biaya`, `dokumen`, `created_at`) VALUES
-(1, 3, 1, 2, 'Dini', 'Milik Pribadi', '2_15.jpg', '2_15.jpg', '2_15.jpg', '19203482018', '2', 'Jl. Pendidikan empl. Kuala Namu', '[{\"harga_imb\":\"44000\"}]', 'List pertanyaan.docx', '0000-00-00 00:00:00'),
-(2, 5, 1, 2, 'Fahri Adrian', 'Milik Pribadi', '2019_04_28 08_29 Office Lens.jpg', '2019_07_12 10_11 AM Office Lens.jpg', '2019_07_13 9_48 AM Office Lens.jpg', '1901293901', '30', 'Jl. Pendidikan', '[{\"harga_imb\":\"660000\"}]', '191402074_DiniMustika.docx', '2021-06-23 07:02:42'),
-(3, 5, 1, 2, 'Fachri Adrian', 'Milik Pribadi', 'ktp_contoh.jpg', 'npwp_contoh.jpg', 'sppt_contoh.jpg', '19203482018', '12', 'Jl. Pendidikan', '[{\"harga_imb\":\"264000\"}]', 'kasus uu ite.docx', '2021-06-23 10:58:16');
 
 -- --------------------------------------------------------
 
@@ -732,13 +660,6 @@ CREATE TABLE `urus_siup` (
   `dokumen` varchar(50) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `urus_siup`
---
-
-INSERT INTO `urus_siup` (`id_permohonan`, `id_user`, `id_perizinan`, `id_status`, `nama_pemilik`, `file_ktp`, `nik`, `tmpt_lahir`, `tgl_lahir`, `besar_modal`, `alamat`, `jenis_siup`, `jenis_usaha`, `dokumen`, `created_at`) VALUES
-(1, 3, 2, 2, 'Dini', '2_17.jpg', '1203902830', 'P. siantar', '2001-03-18', 12090000, 'Jl. Pendidikan ', '[{\"harga_siup\":\"SIUP MIKRO\"}]', 'Salon', '394353907-SB-Big-Book-Matematika-SMA-Ke-Tim-BBM.pd', '2021-06-22 08:59:09');
 
 -- --------------------------------------------------------
 
@@ -769,11 +690,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `username`, `password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `activate_hash`, `status`, `status_message`, `active`, `force_pass_reset`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'dinimustika12@gmail.com', 'dinimust', '$2y$10$E0GEre3RO9JwHY1JxaWJ..hL.1bIs46vBJRsdrhe3gZMEQgCUbd/i', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-06 22:07:11', '2021-06-06 22:07:11', NULL),
-(2, 'nopal@gmail.com', 'nopalzuhdi', '$2y$10$HB4tXBEtJvQmvZd16hLtquUWBMdmb4ipoif4pwlI.uyICrrTFuyBq', NULL, NULL, NULL, '', NULL, NULL, 1, 0, '2021-06-06 22:58:47', '2021-06-06 22:58:47', NULL),
-(3, 'adella@gmail.com', 'adella3', '$2y$10$1mCKxcfzP/nfJijfnAdG.u7jOk4QgLchWh7ZxzMCpyEVnqcJJsXmy', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-07 00:23:36', '2021-06-07 00:23:36', NULL),
-(4, 'Naufal@gmail.com', 'naufalbgnda', '$2y$10$F9G2O9wad3w3lLWiSjE7mezRnZwce3xk358Rh8l7ACSUYl5sDlp9.', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-23 01:24:23', '2021-06-23 01:24:23', NULL),
-(5, 'Fahri@gmail.com', 'fahriii', '$2y$10$SfgyQHF94jwZdkVcLR3m5OLxTTz9RR0zO2jG2V10AhSdCQdjVHYdG', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-23 01:31:42', '2021-06-23 01:31:42', NULL);
+(1, 'admin@gmail.com', 'adminn', '$2y$10$E0GEre3RO9JwHY1JxaWJ..hL.1bIs46vBJRsdrhe3gZMEQgCUbd/i', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-06 22:07:11', '2021-06-06 22:07:11', NULL),
+(2, 'test@gmail.com', 'pegawai', '$2y$10$HB4tXBEtJvQmvZd16hLtquUWBMdmb4ipoif4pwlI.uyICrrTFuyBq', NULL, NULL, NULL, '', NULL, NULL, 1, 0, '2021-06-06 22:58:47', '2021-06-06 22:58:47', NULL);
 
 --
 -- Indexes for dumped tables
