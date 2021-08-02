@@ -124,14 +124,6 @@ CREATE TABLE `auth_groups_permissions` (
   `permission_id` int(11) UNSIGNED NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `auth_groups_permissions`
---
-
-INSERT INTO `auth_groups_permissions` (`group_id`, `permission_id`) VALUES
-(1, 1),
-(1, 2),
-(2, 2);
 
 -- --------------------------------------------------------
 
@@ -144,16 +136,6 @@ CREATE TABLE `auth_groups_users` (
   `user_id` int(11) UNSIGNED NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `auth_groups_users`
---
-
-INSERT INTO `auth_groups_users` (`group_id`, `user_id`) VALUES
-(1, 1),
-(2, 2),
-(2, 3),
-(2, 4),
-(2, 5);
 
 -- --------------------------------------------------------
 
@@ -170,12 +152,6 @@ CREATE TABLE `auth_logins` (
   `success` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `auth_logins`
---
-
-INSERT INTO `auth_logins` (`id`, `ip_address`, `email`, `user_id`, `date`, `success`) VALUES
-(1, '::1', 'test@gmail.com', 1, '2021-06-06 22:07:18', 1);
 
 -- --------------------------------------------------------
 
@@ -188,14 +164,6 @@ CREATE TABLE `auth_permissions` (
   `name` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `auth_permissions`
---
-
-INSERT INTO `auth_permissions` (`id`, `name`, `description`) VALUES
-(1, 'manage-all-letter-profile', 'manage user request and profile also letter'),
-(2, 'manage-profile', 'manage their own profile');
 
 -- --------------------------------------------------------
 
@@ -238,13 +206,6 @@ CREATE TABLE `berita` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `berita`
---
-
-INSERT INTO `berita` (`id_user`, `id_berita`, `title`, `berita`, `tgl_terbit`, `gambar`) VALUES
-(1, 4, 'Upacara 17 Agustus', 'Upacara Kemerdekaan akan di laksanakan secara daring untuk anak sekolah, silahkan hubungi sekolah masing-masing.', '2021-06-23 13:54:34', '2_3.jpg');
-
---
 -- Triggers `berita`
 --
 DELIMITER $$
@@ -275,12 +236,6 @@ CREATE TABLE `event` (
   `tgl_terbit` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `event`
---
-
-INSERT INTO `event` (`id_user`, `id_event`, `isi`, `tgl_event`, `tgl_terbit`) VALUES
-(1, 1, 'JalanJalan ke KL', '2021-06-21', '2021-06-21 15:30:22');
 
 -- --------------------------------------------------------
 
@@ -296,12 +251,6 @@ CREATE TABLE `log_berita` (
   `deleted_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `log_berita`
---
-
-INSERT INTO `log_berita` (`id_berita`, `id_user`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(0, 0, '2021-06-23 13:54:34', '0000-00-00 00:00:00', '2021-06-23 06:54:34');
 
 -- --------------------------------------------------------
 
@@ -317,13 +266,6 @@ CREATE TABLE `log_surat` (
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `log_surat`
---
-
-INSERT INTO `log_surat` (`id_surat`, `id_user`, `id_permohonan`, `id_status`, `updated_at`, `created_at`) VALUES
-(1, 5, 3, 2, '2021-06-23 06:38:54', NULL);
 
 -- --------------------------------------------------------
 
@@ -341,12 +283,6 @@ CREATE TABLE `migrations` (
   `batch` int(11) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `migrations`
---
-
-INSERT INTO `migrations` (`id`, `version`, `class`, `group`, `namespace`, `time`, `batch`) VALUES
-(1, '2017-11-20-223112', 'Myth\\Auth\\Database\\Migrations\\CreateAuthTables', 'default', 'Myth\\Auth', 1623034673, 1);
 
 -- --------------------------------------------------------
 
@@ -359,13 +295,6 @@ CREATE TABLE `perizinan` (
   `nama_perizinan` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `perizinan`
---
-
-INSERT INTO `perizinan` (`id_perizinan`, `nama_perizinan`) VALUES
-(1, 'Surat Izin Mendirikan Bangunan'),
-(2, 'Surat Izin Usaha');
 
 -- --------------------------------------------------------
 
@@ -378,14 +307,6 @@ CREATE TABLE `status` (
   `nama_status` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `status`
---
-
-INSERT INTO `status` (`id_status`, `nama_status`) VALUES
-(1, 'Sedang di proses'),
-(2, 'Selesai'),
-(3, 'Di tolak');
 
 -- --------------------------------------------------------
 
@@ -398,16 +319,6 @@ CREATE TABLE `surat` (
   `nama_surat` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `surat`
---
-
-INSERT INTO `surat` (`id_surat`, `nama_surat`) VALUES
-(1, 'KTP'),
-(2, 'Akta'),
-(3, 'Penghasilan'),
-(4, 'Keterangan Kematian'),
-(5, 'Surat Pengantar Cerai');
 
 -- --------------------------------------------------------
 
@@ -684,14 +595,6 @@ CREATE TABLE `users` (
   `updated_at` datetime DEFAULT NULL,
   `deleted_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `email`, `username`, `password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `activate_hash`, `status`, `status_message`, `active`, `force_pass_reset`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'admin@gmail.com', 'adminn', '$2y$10$E0GEre3RO9JwHY1JxaWJ..hL.1bIs46vBJRsdrhe3gZMEQgCUbd/i', NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '2021-06-06 22:07:11', '2021-06-06 22:07:11', NULL),
-(2, 'test@gmail.com', 'pegawai', '$2y$10$HB4tXBEtJvQmvZd16hLtquUWBMdmb4ipoif4pwlI.uyICrrTFuyBq', NULL, NULL, NULL, '', NULL, NULL, 1, 0, '2021-06-06 22:58:47', '2021-06-06 22:58:47', NULL);
 
 --
 -- Indexes for dumped tables
